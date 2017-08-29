@@ -29,35 +29,35 @@ Work is divided into five work packages:
 
 WP1 will coordinate all activities of the project and ensure effective communication within the project and with CZI, including reporting. WP1 will disseminate project results, and support the exploitation of outcomes by other project participants.
 
-D1.1 Releases of the Cognitive Data Interface (M7, M11)
+D1.1 Releases of the Cognitive Data Interface (M7, M11)<br>
 D1.2: Final project report including financial report (M12)
 
 **WP2: User requirements and evaluation**
 
 W2 will carry out the requirements analysis and evaluation in a collaborative process with relevant stakeholders of the HCA. We will use metrics and user feedback to ensure usability and validity of the CDI, and suggest improvements where necessary.
 
-D2.1 Initial set of requirements (M2)
+D2.1 Initial set of requirements (M2)<br>
 D2.2 Evaluation reports (M8, M10)
 
 **WP3: Visual interface**
 
 WP3 will develop a web-based interface by adapting and extending the existing knowledge mapping framework Head Start to the HCA, introducing a layering mechanism and data-specific interface modes.
 
-D3.1 User interface design (M3)
+D3.1 User interface design (M3)<br>
 D3.2 User interface implementation (M6)
 
 **WP4: Analysis and mapping**
 
 In WP4 the backend of Head Start will be adapted to the HCA by integrating ontology-based tagging, text summarization, ranking and filtering, as well as manifold-learning based mapping. 
 
-D4.1 Backend architecture design (M3) 
+D4.1 Backend architecture design (M3)<br> 
 D4.2 Backend implementation (M6)
 
 **WP5: Data storage and connection**
 
 WP5 will develop a data streaming pipeline connecting to the HCA consumer API, separate databases for tabular metadata, and graph-based dataset enrichment. It will also develop a Data Fusion model in conjunction with WP4. 
 
-D5.1 Connection to HCA Consumer API (M2)
+D5.1 Connection to HCA Consumer API (M2)<br>
 D5.2 Data Fusion model (M6)
 ## 5. Evaluation and dissemination
 Evaluation will be done both quantitatively using and extending the evaluation framework, and by user testing. As there is no ground truth for open ended knowledge discovery, we need to continuously balance between metrics like precision - providing relevant results, recall - reliable search over the whole dataset, and serendipity - providing the user with novel results and leaving the filter bubble. The development process will be conducted with experienced computational biologists on the team and in the advisory board of the project.
@@ -70,6 +70,7 @@ We will bring our collaborative mindset to the project and seek active exchange 
 
 ## Figures
 Fig. 1: Schematic diagram of layered knowledge maps along ontology concept levels in the CDI
+![Schematic diagram](schematic_diagram.jpg)
 
 Fig. 2: Diagram of the key software components of the CDI and their connection to the DCP
-
+![Software_components](software_components.jpg)
